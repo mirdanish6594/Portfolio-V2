@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+  <title>My Portfolio</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Nova+Square&display=swap" rel="stylesheet">
+
+  <!--bootstrap 5 css link-->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+  <!-- Lottie CDN Link -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.9/lottie.min.js"></script>
+
+
+  <!-- Fontawesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Favicons -->
+  <link rel="icon" type="image/x-icon" href="images/logo.png">
+
+  <!-- Google Fonts -->
+  <link href="../https://fonts.gstatic.com" rel="preconnect">
+  <link
+    href="../https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Nunito:300,300i,400,400i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+  <!--aos-->
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Navbar -->
+  <div class="centered-div-main" id="home">
+    <ul class="block-links-hero">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </div>
+
+  <!-- Hero Section -->
+  <img src="images/hero-doodle.png" alt="doodle1" class="hero-image1">
+  <div class="hero-section-new">
+    <h1>Hi, I am Danish Mir<br>A designer and developer.</h1>
+    <h2>Crafting meaningful digital experiences with passion and innovation.</h2>
+    <a href="#contact"><button type="button" class="btn btn-primary hero-button">Say hi!</button></a>
+  </div>
+  <img src="images/hero-doodle.png" alt="doodle2" class="hero-image2">
+
+  <!-- Skills -->
+  <div class="section-header" id="skills">
+    <h1>Skills</h1>
+    <p class="section-subhead">I can do a few things.</p>
+  </div>
+  <div class="main-skills" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-ease-out">
+    <h1 class="web-skill">Web Development</h1>
+    <p class="dev-para">
+      As a front-end web developer, I specialize in creating polished and innovative digital experiences. With a
+      meticulous eye for design and a knack for clean code, I bring a professional touch to every project. Let's
+      collaborate to elevate your online presence and user engagement. Following are the technologies I use:
+    </p>
+    <table>
+      <tr>
+        <td>HTML</td>
+        <td>CSS</td>
+        <td>JavaScript</td>
+      </tr>
+      <tr>
+        <td>Bootstrap</td>
+        <td>Jquery</td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="main-skills-design" data-aos="fade-left" data-aos-duration="1300" data-aos-easing="ease-in-ease-out">
+    <h1 class="design-skill">UI/UX + Graphic Design</h1>
+    <p class="design-para">
+      As a designer, I blend the magic of UI/UX, web design, and graphics. With a dash of creativity and a sprinkle of
+      pixel perfection, I bring ideas to life. Let's turn your vision into a design masterpiece! Following are the
+      technologies I use:
+    </p>
+    <table class="desing-skills">
+      <tr>
+        <td>Figma</td>
+        <td>Canva</td>
+        <td>Font Awesome</td>
+      </tr>
+      <tr>
+        <td>Pen and Paper</td>
+        <td></td>
+        <td></td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="main-skills-ai" data-aos="fade-right" data-aos-duration="1600" data-aos-easing="ease-in-ease-out">
+    <h1 class="web-skill">AI + ML</h1>
+    <p class="dev-para">
+      As an AI/ML enthusiast, I craft intelligent solutions. Proficient in predictive algorithms, automation, and data
+      analytics, I bring innovation to your projects. Let's leverage AI/ML and data science for intelligent outcomes.
+      Following are the technologies I use:
+    </p>
+    <table class="dev-skills">
+      <tr>
+        <td>Python</td>
+        <td>Google Collab</td>
+        <td>Jupyter Notebook</td>
+      </tr>
+      <tr>
+        <td>Numpy</td>
+        <td>Pandas</td>
+        <td>Sci-kit Learn</td>
+      </tr>
+      <tr>
+        <td>Matplotlib</td>
+        <td>Seaborn</td>
+        <td>Pygame</td>
+      </tr>
+    </table>
+  </div>
+
+  <div class="section-header projects-head">
+    <h1>Projects</h1>
+    <p class="section-subhead">I've made a few things.</p>
+  </div>
+  <!-- Projects -->
+  <div class="main-projects d-flex align-items-center" id="projects">
+    <div class="col-lg-6">
+      <div class="skill-box for-hover" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-ease-out">
+        <a href="www.paperclip.uno" target="_blank">
+          <table>
+            <tr>
+              <td>
+                <h1>Paperclip</h1>
+                <p>A real-life project where I designed and developed a centralized marketplace connecting college
+                  students to
+                  buy and sell pre-owned items, promoting sustainability and convenience within campuses.</p>
+                <img class="img-paperclip" src="images/paperclip.png" alt="paperclip">
+              </td>
+            </tr>
+          </table>
+        </a>
+      </div>
+
+      <table>
+        <tr>
+          <td>
+            <div class="skill-box curve-box for-hover" data-aos="fade-right" data-aos-duration="1300" data-aos-easing="ease-in-ease-out">
+              <a href=" https://mirdanish6594.github.io/TinCat/" target="_blank">
+                <table>
+                  <tr>
+                    <td>
+                      <h1>Tin Cat</h1>
+                      <p>I've created a visually captivating front-end project that connects adorable kitties with
+                        loving owners. Swipe through charming cat profiles and embark on a meow-nificent journey!</p>
+                    </td>
+                    <td>
+                      <img class="img-paperclip" src="images/tincat.png" alt="paperclip">
+                    </td>
+                  </tr>
+                </table>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="skill-box rang-box for-hover" data-aos="fade-right" data-aos-duration="1600" data-aos-easing="ease-in-ease-out">
+              <a href="https://aym-n.github.io/inventory-management/" target="_blank">
+                <table>
+                  <tr>
+                    <td>
+                      <h1>Inventory</h1>
+                      <p>I played a pivotal role in developing the Inventory Management System for the medical unit at
+                        NIT Srinagar, contributing to the efficiency and organization of medical operations.</p>
+                    </td>
+                    <td>
+                      <img class="img-paperclip" src="images/inventory.png" alt="paperclip">
+                    </td>
+                  </tr>
+                </table>
+              </a>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <div class="col-lg-6">
+      <table>
+        <tr>
+          <td>
+            <div class="skill-box tincat-box for-hover" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-ease-out">
+              <a href="https://www.curveelectric.com" target="_blank">
+                <table>
+                  <tr>
+                    <td>
+                      <h1>Curve Electric</h1>
+                      <p>At Curve Electric, I've crafted captivating graphics and optimized the UI/UX of their website,
+                        merging creativity with functionality for a visually stunning and user-centric digital
+                        experience.</p>
+                    </td>
+                    <td>
+                      <img class="img-paperclip" src="images/curve.png" alt="paperclip">
+                    </td>
+                  </tr>
+                </table>
+              </a>
+            </div>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <div class="skill-box inventory-box for-hover" data-aos="fade-left" data-aos-duration="1300" data-aos-easing="ease-in-ease-out">
+              <a href="https://www.rangechinar.nitsri.ac.in" target="_blank">
+                <table>
+                  <tr>
+                    <td>
+                      <h1>Rang-e-Chinar</h1>
+                      <p>As the developer for NIT Srinagar's Rang-e-Chinar website, I crafted its look and
+                        functionality, contributing to the success of the annual cultural fest.</p>
+                    </td>
+                    <td>
+                      <img class="img-paperclip" src="images/rang-e-chinar logo.png" alt="paperclip">
+                    </td>
+                  </tr>
+                </table>
+              </a>
+            </div>
+          </td>
+        </tr>
+      </table>
+
+      <div class="main-projects d-flex align-items-center">
+        <div class="skill-box snake-box for-hover" data-aos="fade-left" data-aos-duration="1600" data-aos-easing="ease-in-ease-out">
+          <a href="https://github.com/mirdanish6594/SnakeAI-ReinforcementLearning" target="_blank">
+            <table>
+              <tr>
+                <td>
+                  <h1>Snake Game Model</h1>
+                  <p>Presenting my Snake AI project using Q-learning, a culmination of my efforts in reinforcement
+                    learning.
+                    I've implemented an intelligent Snake agent that learns and navigates dynamically, showcasing the
+                    power of
+                    Q-learning.</p>
+                  <img class="img-paperclip" src="images/snake.png" alt="paperclip">
+                </td>
+              </tr>
+            </table>
+          </a>
+        </div>
+      </div>
+      <!-- About -->
+      <div class="section-header about-me-head" id="about">
+        <h1>About Me</h1>
+      </div>
+      <div class="main-about d-flex col-lg-6 this-one">
+        <img class="img-me one-box" src="images/me.png" alt="me" data-aos="fade-right" data-aos-duration="1000" data-aos-easing="ease-in-ease-out">
+        <div class="me-para" data-aos="fade-left" data-aos-duration="1000" data-aos-easing="ease-in-ease-out">
+          <h1>I'm a web developer and designer based in Kashmir.</h1>
+          <p>
+            I create user-friendly websites with a touch of
+            online magic. Besides, I explore AI/ML, building models in a language anyone can understand. In design,
+            I love making user-friendly interfaces and graphics. When not coding, you'll find me in books or lost in
+            my favorite tunes – a mix of coding rhythm and melodies. <br><strong>Hit me up if you vibe with me!</strong>
+          </p>
+        </div>
+      </div>
+
+      <!-- Footer -->
+      <div class="footer d-flex col-lg-8">
+        <div class="music">
+          <table>
+            <tr>
+              <td><i class="fa fa-solid fa-spotify fa-3x" style="color: #113946;"></i></td>
+              <td>
+                <p>On loop</p>
+                <a href="https://open.spotify.com/track/3KkXRkHbMCARz0aVfEt68P?si=fuI3atpLTz-u4Eyo2v-VUw"
+                  target="_blank" style="text-decoration: none;">
+                  <h5>Sunflower - Post Malone, Swae Lee</h5>
+                </a>
+              </td>
+            </tr>
+          </table>
+          <strong>
+            <p id="contact" class="p-copyright"><i class="fa fa-regular fa-copyright" style="color: grey;"></i> 2023 -
+              Danish Mir</p>
+          </strong>
+        </div>
+
+        <div class="contacts">
+          <table>
+            <tr>
+              <th>
+                <h5>More</h5>
+              </th>
+              <th>
+                <h5>Contact</h5>
+              </th>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/mirdanish6594" target="_blank">
+                  <p>Github</p>
+                </a></td>
+              <td><a href="tel:+91 6005619812">
+                  <p>+91 6005619812</p>
+                </a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.instagram.com/mirdanish6594/" target="_blank">
+                  <p>Instagram</p>
+                </a></td>
+              <td><a href="mailto: danishmir_2022bche034@nitsri.ac.in" target="_blank attribute">
+                  <p>danishmir_2022bche034@nitsri.ac.in</p>
+                </a></td>
+            </tr>
+            <tr>
+              <td><a href="https://www.linkedin.com/in/danish-mir-767792202/" target="_blank">
+                  <p>Linkedin</p>
+                </a></td>
+              <td>
+                <p></p>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+      <script src="index.js"></script>
+      <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+      <script>
+        AOS.init();
+      </script>
+</body>
+
+</html>

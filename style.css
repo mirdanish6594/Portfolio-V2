@@ -1,0 +1,928 @@
+body {
+    font-family: 'Nova Square', sans-serif;
+    background: linear-gradient(270deg, #c5fff8, #9ad0c2, #C5E898, #FFD28F);
+    background-size: 800% 800%;
+    -webkit-animation: main-body 35s ease infinite;
+    -moz-animation: main-body 35s ease infinite;
+    animation: main-body 35s ease infinite;
+}
+
+@-webkit-keyframes main-body {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes main-body {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes main-body {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 51%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/* Navbar */
+.centered-div-main {
+    width: 37%;
+    /* Adjust the width as needed */
+    margin: 30px 0 10% 32%;
+    /* Center the div horizontally with top margin */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    z-index: 10;
+}
+
+.block-links-hero {
+    list-style: none;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    padding-top: 19px;
+}
+
+.block-links-hero li {
+    display: inline;
+    /* Display list items inline */
+    margin-right: 35px;
+    /* Adjust spacing between items as needed */
+    margin-left: 35px;
+}
+
+.block-links-hero a {
+    text-decoration: none;
+    color: #333;
+    /* Link text color */
+}
+
+.centered-div-main a:hover {
+    color: grey;
+}
+
+/* Main headings */
+.hero-section-new {
+    color: #113946;
+    /* Text color */
+    text-align: center;
+    padding: 100px 20px;
+    /* Adjust padding as needed */
+    margin-top: 20vh;
+}
+
+.hero-section-new h1 {
+    font-size: 6em;
+    /* Adjust the font size for the heading */
+    margin-bottom: 20px;
+    /* Adjust the margin as needed */
+}
+
+.hero-section-new h2 {
+    font-size: 1.5em;
+    /* Adjust the font size for the subheading */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.hero-image1 {
+    width: 200px;
+    height: 200px;
+    margin-bottom: -30%;
+    margin-left: 14%;
+}
+
+.hero-image2 {
+    width: 200px;
+    height: 200px;
+    margin-left: 78%;
+    margin-top: -10%;
+}
+
+.hero-button {
+    align-items: center;
+    background-color: #113946;
+    border-radius: 50px;
+    color: #fff;
+    height: 73px;
+    width: 240px;
+    font-size: 2.5em;
+    margin-bottom: -8%;
+}
+
+.hero-button:hover {
+    background-color: transparent;
+    color: #113946;
+}
+
+/* Skills */
+.section-header h1 {
+    font-size: 6em;
+    margin-left: 43%;
+    margin-top: 11%;
+    margin-bottom: -13%;
+    color: #113946;
+}
+
+.section-header p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+    margin-left: 44%;
+    margin-top: 12.3%;
+    margin-bottom: -13%;
+    color: #113946;
+}
+
+/* dev */
+.main-skills {
+    margin: 15% 0 15% 12%;
+    padding: 20px;
+}
+
+.main-skills h1 {
+    font-size: 3em;
+}
+
+.dev-para {
+    width: 35%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+}
+
+.dev-skills tr,
+td {
+    padding: 0 50px 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* design */
+.main-skills-design {
+    margin: -17% 0 15% 48%;
+    padding: 20px;
+
+}
+
+.main-skills-design h1 {
+    font-size: 3em;
+}
+
+.design-para {
+    width: 74%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.3em;
+}
+
+.design-skills tr,
+td {
+    padding: 0 50px 10px 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* AI + ML */
+.main-skills-ai {
+    margin: -15% 0 15% 12%;
+    padding: 20px;
+}
+
+.main-skills-ai h1 {
+    font-size: 3em;
+}
+
+/* Projects*/
+.main-projects {
+    position: relative !important;
+}
+
+.projects-head {
+    margin-bottom: 20%;
+    margin-top: -10%;
+}
+
+.projects-head p {
+    margin-left: 46.5%;
+}
+
+/*project-1*/
+.skill-box {
+    width: 68%;
+    height: 45vh;
+    margin: -110vh 0 10% 24%;
+    /* Center the div horizontally with top margin */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+}
+
+.for-hover a:hover {
+    text-decoration: none !important;
+}
+
+.skill-box img {
+    margin: 0 0 0 30%;
+    width: 40%;
+    height: 25vh;
+}
+
+.skill-box h1 {
+    margin: 3% 0 0 5%;
+    color: #113946;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.skill-box p {
+    width: 94%;
+    margin: 1% 0 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+/*project-2*/
+.curve-box {
+    width: 73%;
+    height: 20vh;
+    margin: -7% 0 2% 25%;
+    /* Center the div horizontally with top margin */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+}
+
+.curve-box img {
+    margin: 3% 0 0 30%;
+    width: 120px;
+    height: 120px;
+}
+
+.curve-box h1 {
+    margin: 3% 0 0 5%;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.curve-box p {
+    width: 100%;
+    margin: 1% 0 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+/*project-3*/
+.rang-box {
+    width: 73%;
+    height: 20vh;
+    margin: 2% 0 2% 25%;
+    /* Center the div horizontally with top margin */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+}
+
+.rang-box img {
+    margin: 3% 0 0 30%;
+    width: 120px;
+    height: 120px;
+}
+
+.rang-box h1 {
+    margin: 3% 0 0 5%;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.rang-box p {
+    width: 100%;
+    margin: 1% 0 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+/*project-4*/
+.tincat-box {
+    width: 78%;
+    height: 20vh;
+    margin: 0 0 1% 0;
+    /* Center the div horizontally with top margin */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+}
+
+.tincat-box img {
+    margin: 3% 0 0 30%;
+    width: 120px;
+    height: 120px;
+}
+
+.tincat-box h1 {
+    margin: 3% 0 0 5%;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.tincat-box p {
+    width: 99%;
+    margin: 1% 0 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+/*project-5*/
+.inventory-box {
+    width: 78%;
+    height: 20vh;
+    margin: 2% 0 3% 0;
+    /* Center the div horizontally with top margin */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+}
+
+.inventory-box img {
+    margin: 3% 0 0 30%;
+    width: 120px;
+    height: 120px;
+}
+
+.inventory-box h1 {
+    margin: 3% 0 0 5%;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.inventory-box p {
+    width: 99%;
+    margin: 1% 0 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+/*project-6*/
+.snake-box {
+    width: 74.5%;
+    height: 45vh;
+    margin: 0 0 4% 0;
+    /* Center the div horizontally with top margin */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+}
+
+.snake-box img {
+    margin: 0 0 0 30%;
+    width: 40%;
+    height: 25vh;
+}
+
+.snake-box h1 {
+    margin: 3% 0 0 5%;
+    font-family: 'Nova Square', sans-serif;
+}
+
+.snake-box p {
+    width: 94%;
+    margin: 1% 0 0 5%;
+    font-family: 'Montserrat', sans-serif;
+    color: grey;
+    font-weight: bold;
+}
+
+.for-hover {
+    transition: transform 0.4s ease;
+}
+
+.for-hover:hover {
+    transform: scale(1.04);
+}
+
+/* about */
+.about-me-head h1 {
+    margin-bottom: -23%;
+    margin-left: -21%;
+}
+
+.main-about {
+    margin-top: 28vh;
+    margin-left: -80%;
+}
+
+.img-me {
+    width: 90%;
+    height: 43vh;
+    margin-right: 60%;
+    margin-top: -8%;
+}
+
+.me-para p {
+    width: 370%;
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.me-para h1 {
+    width: 400%;
+    font-size: 3em;
+    font-family: 'Nova Square', sans-serif;
+    color: #113946;
+}
+
+/* Footer */
+.footer {
+    position: relative;
+    margin-top: 30vh;
+    margin-bottom: 5vh !important;
+    margin-left: 28%;
+}
+
+.contacts p {
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contacts h5 {
+    margin-bottom: 20px;
+    color: #113946;
+    font-weight: bold;
+}
+
+.contacts {
+    margin-left: 70%;
+    margin-right: 17%;
+}
+
+.music {
+    width: 120% !important;
+    /* Adjust the width as needed */
+    height: 8vh;
+    margin: -2% 15% 10% -170%;
+    /* Center the div horizontally with top margin */
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.15);
+    border-radius: 50px;
+    /* Rounded corners */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Box shadow for a subtle effect */
+    backdrop-filter: blur(10px);
+    /* Apply a blur effect to the background */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.music h5 {
+    font-size: 1.2em;
+    color: #113946;
+    font-weight: bold;
+}
+
+.music p {
+    color: grey;
+    margin-bottom: 2px;
+}
+
+.fa-spotify {
+    margin-left: 30%;
+}
+
+.fa-copyright {
+    font-weight: bold;
+    margin-top: 5%;
+}
+
+.contacts a {
+    color: #113946;
+}
+
+.contacts a:hover {
+    color: grey;
+    text-decoration: none;
+}
+
+
+/******CSS media query breakpoints*******/
+
+@media (max-width: 992px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* navbar */
+    .centered-div-main {
+        width: 90%;
+        height: 6vh;
+        margin: 5% 0 10% 5%;
+    }
+
+    .block-links-hero {
+        width: 100% !important;
+        margin-top: -4%;
+        margin-left: -5%;
+    }
+
+    .block-links-hero li {
+        margin-right: 2%;
+        /* Adjust spacing between items as needed */
+        margin-left: 2%;
+        padding-left: 1%;
+        font-size: 0.8em;
+    }
+
+    /* hero section */
+    .hero-section-new {
+        text-align: center;
+    }
+
+    .hero-section-new h1 {
+        font-size: 2.5em;
+        /* Adjust the font size for the heading */
+        margin-top: -8%;
+    }
+
+    .hero-section-new h2 {
+        font-size: 1em;
+        /* Adjust the font size for the subheading */
+    }
+
+    .hero-button {
+        height: 55px;
+        width: 180px;
+        font-size: 1.9em;
+        margin-bottom: -8%;
+        margin-top: 8%;
+    }
+
+    .hero-image1 {
+        width: 120px;
+        height: 120px;
+        margin-bottom: -70%;
+        margin-left: 35%;
+    }
+
+    .hero-image2 {
+        width: 120px;
+        height: 120px;
+        margin-left: 35%;
+        margin-top: -5%;
+        margin-bottom: 8%;
+    }
+
+    /* Skills */
+    .section-header h1 {
+        font-size: 2.6em;
+        margin-left: 38%;
+        margin-top: 11%;
+        margin-bottom: -13%;
+    }
+
+    .section-header p {
+        font-size: 0.7em;
+        margin-left: 38%;
+        margin-top: 12.3%;
+        margin-bottom: -13%;
+    }
+
+    /* dev */
+    .main-skills {
+        margin: 15% 0 15% 12%;
+        padding: 20px;
+    }
+
+    .main-skills tr,
+    td {
+        font-size: 0.7em !important;
+    }
+
+    .main-skills h1 {
+        font-size: 1.5em;
+    }
+
+    .dev-para {
+        width: 90%;
+        font-size: 0.8em;
+    }
+
+    .dev-skills tr,
+    td {
+        font-size: 0.7em !important;
+        padding: 0 50px 10px 0;
+    }
+
+    /* design */
+    .main-skills-design {
+        margin: -17% 0 15% 12%;
+        padding: 20px;
+    }
+
+    .main-skills-design tr,
+    td {
+        font-size: 0.7em !important;
+    }
+
+    .main-skills-design h1 {
+        font-size: 1.5em;
+    }
+
+    .design-para {
+        width: 90%;
+        font-size: 0.8em;
+    }
+
+    .design-skills tr,
+    td {
+        padding: 0 50px 10px 0;
+    }
+
+    /* AI + ML */
+    .main-skills-ai h1 {
+        font-size: 1.5em;
+    }
+
+    .main-projects {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .projects-head h1 {
+        margin-top: -10%;
+        margin-left: 31%;
+    }
+
+    .projects-head p {
+        margin-left: 35%;
+    }
+
+    /*project-1*/
+    .for-hover {
+        width: 94%;
+        height: 45vh;
+        margin: 0 0 12% 3%;
+        padding: 10px;
+    }
+
+    .for-hover img {
+        margin: 8% 0 0 30%;
+        width: 60%;
+        height: 25vh;
+    }
+
+    .for-hover h1 {
+        margin: 3% 0 0 5%;
+        font-size: 2.2em;
+        font-family: 'Nova Square', sans-serif;
+    }
+
+    /*project-2*/
+    .curve-box {
+        width: 109% !important;
+        height: 20vh !important;
+        margin: -7% 0 12% 3% !important;
+        padding: 10px !important;
+    }
+
+    .curve-box img {
+        margin: 10% 0 -5% 0 !important;
+        width: 350% !important;
+        height: 12vh !important;
+    }
+
+    .curve-box h1 {
+        margin: 3% 0 0 5% !important;
+        font-size: 3em !important;
+    }
+
+    .curve-box p {
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: bold !important;
+        font-size: 1.4em !important;
+    }
+
+    /*project-3*/
+    .rang-box {
+        width: 109% !important;
+        height: 20vh !important;
+        margin: -7% 0 12% 3% !important;
+        padding: 10px !important;
+    }
+
+    .rang-box img {
+        margin: 10% 0 -5% 0 !important;
+        width: 350% !important;
+        height: 12vh !important;
+    }
+
+    .rang-box h1 {
+        margin: 3% 0 0 5% !important;
+        font-size: 3em !important;
+    }
+
+    .rang-box p {
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: bold !important;
+        font-size: 1.3em !important;
+    }
+
+    /*project-4*/
+    .tincat-box {
+        width: 109% !important;
+        height: 20vh !important;
+        margin: -7% 0 12% 3% !important;
+        padding: 10px !important;
+    }
+
+    .tincat-box img {
+        margin: 10% 0 -5% 0 !important;
+        width: 350% !important;
+        height: 12vh !important;
+    }
+
+    .tincat-box h1 {
+        margin: 3% 0 0 5% !important;
+        font-size: 3em !important;
+    }
+
+    .tincat-box p {
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: bold !important;
+        font-size: 1.4em !important;
+    }
+
+    /*project-5*/
+    .inventory-box {
+        width: 109% !important;
+        height: 20vh !important;
+        margin: -7% 0 12% 3% !important;
+        padding: 10px !important;
+    }
+
+    .inventory-box img {
+        margin: 10% 0 -5% 0 !important;
+        width: 350% !important;
+        height: 12vh !important;
+    }
+
+    .inventory-box h1 {
+        margin: 3% 0 0 5% !important;
+        font-size: 3em !important;
+    }
+
+    .inventory-box p {
+        font-family: 'Montserrat', sans-serif !important;
+        font-weight: bold !important;
+        font-size: 1.4em !important;
+    }
+
+    /*project-6*/
+    .snake-box {
+        width: 92% !important;
+        height: 45vh !important;
+        margin: -7% 0 12% 0 !important;
+        padding: 10px !important;
+    }
+
+    .snake-box img {
+        margin: -0.1% 0 0 30%;
+    }
+
+    /* about */
+    .about-me-head h1 {
+        margin-bottom: 0;
+        margin-left: 26%;
+    }
+
+    .main-about {
+        margin-top: 6vh;
+        margin-left: 6%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .img-me {
+        width: 90%;
+        height: 38vh;
+        margin-top: -8%;
+    }
+
+    .me-para p {
+        width: 90%;
+        font-size: 1em;
+    }
+
+    .me-para h1 {
+        width: 90%;
+        font-size: 2em;
+    }
+
+    /* Footer */
+    .footer {
+        margin-top: 20vh;
+        margin-bottom: 2vh !important;
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .contacts p {
+        margin-bottom: 20px;
+    }
+
+    .contacts h5 {
+        margin-bottom: 20px;
+    }
+
+    .contacts {
+        margin-left: -22%
+    }
+
+    .music {
+        width: 90% !important;
+        height: 6vh;
+        margin: 6vh 0 10% -24%;
+    }
+
+    .music h5 {
+        font-size: 1.1em;
+        width: 120% !important;
+        margin-left: -15%;
+    }
+
+    .music p {
+        margin-bottom: 2px;
+        font-size: 0.8em;
+        margin-left: -15%;
+    }
+
+    .fa-spotify {
+        margin-left: 30%;
+        margin-top: -20%;
+    }
+
+    .fa-copyright {
+        margin-top: 1vh;
+        margin-left: 42%;
+    }
+    .p-copyright {
+        font-size: 0.6em !important;
+    }
+}
