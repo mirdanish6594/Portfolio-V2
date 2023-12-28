@@ -725,6 +725,9 @@ td {
     }
 
     /*project-1*/
+    .paperclip-box {
+        position: relative;
+    }
     .for-hover {
         width: 94%;
         height: 45vh;
@@ -746,6 +749,7 @@ td {
 
     /*project-2*/
     .curve-box {
+        position: relative;
         width: 109% !important;
         height: 20vh !important;
         margin: -7% 0 12% 3% !important;
@@ -771,6 +775,7 @@ td {
 
     /*project-3*/
     .rang-box {
+        position: relative;
         width: 109% !important;
         height: 20vh !important;
         margin: -7% 0 12% 3% !important;
@@ -796,6 +801,7 @@ td {
 
     /*project-4*/
     .tincat-box {
+        position: relative;
         width: 109% !important;
         height: 20vh !important;
         margin: -7% 0 12% 3% !important;
@@ -821,6 +827,7 @@ td {
 
     /*project-5*/
     .inventory-box {
+        position: relative;
         width: 109% !important;
         height: 20vh !important;
         margin: -7% 0 12% 3% !important;
@@ -846,6 +853,7 @@ td {
 
     /*project-6*/
     .snake-box {
+        position: relative;
         width: 92% !important;
         height: 45vh !important;
         margin: -7% 0 12% 0 !important;
@@ -906,6 +914,7 @@ td {
     }
 
     .music {
+        position: relative;
         width: 90% !important;
         height: 6vh;
         margin: 6vh 0 10% -24%;
