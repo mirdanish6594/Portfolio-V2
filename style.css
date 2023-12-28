@@ -978,21 +978,107 @@ td {
 
     /* hero section */
     .hero-image1 {
-        width: 15%;
-        height: 15%;
-        margin-left: 6%;
+        width: 12%;
+        height: 12%;
+        margin-left: 2%;
     }
 
     .hero-image2 {
-        width: 15%;
-        height: 15%;
+        width: 12%;
+        height: 12%;
     }
 
+/* Main headings */
+.hero-section-new h1 {
+    font-size: 4.8em;
+}
+
+.hero-section-new h2 {
+    font-size: 1.1em;
+}
+
+.hero-button {
+    height: 63px;
+    width: 220px;
+    font-size: 2.1em;
+}
+
+
+    /* Skills */
+.section-header h1 {
+    font-size: 4em;
+}
+
+.section-header p {
+    font-size: 0.9em;
+}
+
+/* dev */
+.main-skills h1 {
+    font-size: 2.2em;
+}
+
+.dev-para {
+    font-size: 1em;
+}
+
+.dev-skills tr,
+td {
+    font-size: 1em;
+}
+
+/* design */
+.main-skills-design h1 {
+    font-size: 2.2em;
+}
+
+.design-para {
+    font-size: 1em;
+}
+
+.design-skills tr,
+td {
+    font-size: 1em;
+}
+
+/* AI + ML */
+
+.main-skills-ai h1 {
+    font-size: 2.2em;
+}
+
+/* Projects*/
+.main-projects {
+    position: relative !important;
+}
+
+.projects-head {
+    margin-bottom: 20%;
+    margin-top: -10%;
+}
+
+.projects-head p {
+    margin-left: 46.5%;
+}
+
+    .projects-head {
+        font-size: 4em;
+    }
+    .section-subhead {
+        font-size: 0.9em;
+    }
     /*project-1*/
     .paperclip-box {
         margin-top: -128%;
         height: 56vh;
     }
+    .skill-box h1 {
+    font-size: 1.5em;
+}
+
+.skill-box p {
+    font-size: 1em;
+}
 
     /*project-2*/
     .curve-box {
@@ -1007,7 +1093,11 @@ td {
 
     .curve-box p {
         width: 120%;
+        font-size: 1em;
     }
+        .curve-box h1 {
+    font-size: 1.5em;
+}
 
     /*project-3*/
     .rang-box {
@@ -1022,7 +1112,11 @@ td {
 
     .rang-box p {
         width: 120%;
+        font-size: 1em;
     }
+        .rang-box h1 {
+    font-size: 1.5em;
+}
 
     /*projet-4*/
     .tincat-box {
@@ -1037,7 +1131,12 @@ td {
 
     .tincat-box p {
         width: 120%;
+        font-size: 1em;
     }
+    .tincat-box h1 {
+    font-size: 1.5em;
+}
+    
 
     /*project-5*/
     .inventory-box {
@@ -1052,18 +1151,46 @@ td {
 
     .inventory-box p {
         width: 120%;
+        font-size: 1em;
     }
+    .inventory-box h1 {
+    font-size: 1.5em;
+}
 
     /*project-6*/
     .snake-box {
         height: 56vh;
         margin-bottom: -162%;
     }
+        .snake-box h1 {
+    font-size: 1.5em;
+}
+
+.snake-box p {
+    font-size: 1em;
+}
 
     /* about */
+    .me-para {
+    margin-left: -20%;
+}
     .about-me-head h1 {
         margin-top: 130vh;
+        font-size: 4em;
     }
+
+.me-para p {
+    width: 370%;
+    font-size: 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.me-para h1 {
+    width: 400%;
+    font-size: 2em;
+    font-family: 'Nova Square', sans-serif;
+    color: #113946;
+}
 
     /* Footer */ 
     .music {
@@ -1073,8 +1200,14 @@ td {
 
     .music p {
         margin-top: -7px;
+        font-size: 0.5em;
     } 
     .music h5 {
+        width: 110%;
+        font-size: 0.9em;
         margin-bottom: -3.5%;
     }
+    .contacts {
+    margin-right: 25%;
+}
 }
