@@ -751,7 +751,7 @@ td {
     .curve-box {
         position: relative;
         width: 109% !important;
-        height: 20vh !important;
+        height: 17vh !important;
         margin: -7% 0 12% 3% !important;
         padding: 10px !important;
     }
@@ -777,7 +777,7 @@ td {
     .rang-box {
         position: relative;
         width: 109% !important;
-        height: 20vh !important;
+        height: 17vh !important;
         margin: -7% 0 12% 3% !important;
         padding: 10px !important;
     }
@@ -829,7 +829,7 @@ td {
     .inventory-box {
         position: relative;
         width: 109% !important;
-        height: 20vh !important;
+        height: 17vh !important;
         margin: -7% 0 12% 3% !important;
         padding: 10px !important;
     }
@@ -1080,7 +1080,7 @@ td {
     /*project-2*/
     .curve-box {
         height: 25vh;
-        margin-top: -76%;
+        margin-top: -77%;
     }
 
     .curve-box img {
@@ -1099,7 +1099,7 @@ td {
     /*project-3*/
     .rang-box {
         height: 25vh;
-        margin-top: -47%;
+        margin-top: -49.5%;
     }
 
     .rang-box img {
@@ -1157,7 +1157,7 @@ td {
     /*project-6*/
     .snake-box {
         height: 52vh;
-        margin-bottom: -166%;
+        margin-bottom: -162%;
     }
         .snake-box h1 {
     font-size: 1.5em;
