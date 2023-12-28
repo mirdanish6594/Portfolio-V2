@@ -426,7 +426,7 @@ td {
 /*project-6*/
 .snake-box {
     position: absolute;
-    width: 68%;
+    width: 72%;
     height: 45vh;
     margin: 0 0 -128% 0;
     /* Center the div horizontally with top margin */
@@ -1066,8 +1066,8 @@ td {
 }
     /*project-1*/
     .paperclip-box {
-        margin-top: -133%;
-        height: 54vh;
+        margin-top: -132.5%;
+        height: 52vh;
     }
     .skill-box h1 {
     font-size: 1.5em;
@@ -1079,7 +1079,7 @@ td {
 
     /*project-2*/
     .curve-box {
-        height: 27vh;
+        height: 25vh;
         margin-top: -76%;
     }
 
@@ -1098,7 +1098,7 @@ td {
 
     /*project-3*/
     .rang-box {
-        height: 27vh;
+        height: 25vh;
         margin-top: -47%;
     }
 
@@ -1117,7 +1117,7 @@ td {
 
     /*projet-4*/
     .tincat-box {
-        height: 27vh;
+        height: 25vh;
         margin-bottom: 60%;
     }
 
@@ -1137,8 +1137,8 @@ td {
 
     /*project-5*/
     .inventory-box {
-        height: 27vh;
-        margin-top: 25% !important;
+        height: 25vh;
+        margin-top: 22.5% !important;
     }
 
     .inventory-box img {
@@ -1156,8 +1156,8 @@ td {
 
     /*project-6*/
     .snake-box {
-        height: 54vh;
-        margin-bottom: -167%;
+        height: 52vh;
+        margin-bottom: -166%;
     }
         .snake-box h1 {
     font-size: 1.5em;
