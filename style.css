@@ -122,6 +122,7 @@ body {
     height: 200px;
     margin-bottom: -30%;
     margin-left: 14%;
+    position: relative;
 }
 
 .hero-image2 {
@@ -129,6 +130,7 @@ body {
     height: 200px;
     margin-left: 78%;
     margin-top: -10%;
+    position: relative;
 }
 
 .hero-button {
@@ -238,6 +240,7 @@ td {
 
 /*project-1*/
 .skill-box {
+    position: absolute;
     width: 68%;
     height: 45vh;
     margin: -110vh 0 10% 24%;
@@ -278,9 +281,10 @@ td {
 
 /*project-2*/
 .curve-box {
-    width: 73%;
+    position: absolute;
+    width: 68%;
     height: 20vh;
-    margin: -7% 0 2% 25%;
+    margin: -63% 0 2% 25%;
     /* Center the div horizontally with top margin */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -313,9 +317,10 @@ td {
 
 /*project-3*/
 .rang-box {
-    width: 73%;
+    position: absolute;
+    width: 68%;
     height: 20vh;
-    margin: 2% 0 2% 25%;
+    margin: -40% 0 2% 25%;
     /* Center the div horizontally with top margin */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -348,9 +353,10 @@ td {
 
 /*project-4*/
 .tincat-box {
-    width: 78%;
+    position: absolute;
+    width: 68%;
     height: 20vh;
-    margin: 0 0 1% 0;
+    margin: -5.5% 0 30% 0;
     /* Center the div horizontally with top margin */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -383,9 +389,10 @@ td {
 
 /*project-5*/
 .inventory-box {
-    width: 78%;
+    position: absolute;
+    width: 68%;
     height: 20vh;
-    margin: 2% 0 3% 0;
+    margin: 16.7% 0 0 0 !important;
     /* Center the div horizontally with top margin */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -418,9 +425,10 @@ td {
 
 /*project-6*/
 .snake-box {
-    width: 74.5%;
+    position: absolute;
+    width: 68%;
     height: 45vh;
-    margin: 0 0 4% 0;
+    margin: 0 0 -128% 0;
     /* Center the div horizontally with top margin */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -461,6 +469,7 @@ td {
 
 /* about */
 .about-me-head h1 {
+    margin-top: 100%;
     margin-bottom: -23%;
     margin-left: -21%;
 }
@@ -510,15 +519,16 @@ td {
 }
 
 .contacts {
-    margin-left: 70%;
+    margin-left: 5%;
     margin-right: 17%;
 }
 
 .music {
-    width: 120% !important;
+    position: absolute;
+    width: 90% !important;
     /* Adjust the width as needed */
     height: 8vh;
-    margin: -2% 15% 10% -170%;
+    margin: -2% 0 10% -170%;
     /* Center the div horizontally with top margin */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
@@ -922,7 +932,140 @@ td {
         margin-top: 1vh;
         margin-left: 42%;
     }
+
     .p-copyright {
         font-size: 0.6em !important;
+    }
+}
+
+@media (min-width: 992px) and (max-width: 1877.5px) {
+    body {
+        overflow-x: hidden !important;
+    }
+
+    /* navbar */
+    .centered-div-main {
+        width: 45%;
+        height: 10vh;
+        display: flex !important;
+        justify-content: center !important;
+        align-items: center !important;
+    }
+
+    .block-links-hero {
+        width: 100% !important;
+        margin-left: -2%;
+        position: relative;
+    }
+
+    .block-links-hero li {
+        display: inline-block;
+        margin-right: 4% !important;
+        margin-left: 2% !important;
+        padding-left: 2% !important;
+        padding-right: 2% !important;
+        font-size: 1.1em;
+    }
+
+    /* hero section */
+    .hero-image1 {
+        width: 15%;
+        height: 15%;
+        margin-left: 6%;
+    }
+
+    .hero-image2 {
+        width: 15%;
+        height: 15%;
+    }
+
+    /*project-1*/
+    .paperclip-box {
+        margin-top: -128%;
+        height: 56vh;
+    }
+
+    /*project-2*/
+    .curve-box {
+        height: 29vh;
+        margin-top: -73%;
+    }
+
+    .curve-box img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .curve-box p {
+        width: 120%;
+    }
+
+    /*project-3*/
+    .rang-box {
+        height: 29vh;
+        margin-top: -44%;
+    }
+
+    .rang-box img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .rang-box p {
+        width: 120%;
+    }
+
+    /*projet-4*/
+    .tincat-box {
+        height: 29vh;
+        margin-bottom: 60%;
+    }
+
+    .tincat-box img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .tincat-box p {
+        width: 120%;
+    }
+
+    /*project-5*/
+    .inventory-box {
+        height: 29vh;
+        margin-top: 23% !important;
+    }
+
+    .inventory-box img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .inventory-box p {
+        width: 120%;
+    }
+
+    /*project-6*/
+    .snake-box {
+        height: 56vh;
+        margin-bottom: -162%;
+    }
+
+    /* about */
+    .about-me-head h1 {
+        margin-top: 130vh;
+    }
+
+    /* Footer */ 
+    .music {
+        width: 110% !important;
+        height: 10vh;
+    }
+
+    .music p {
+        margin-top: -7px;
+    } 
+    .music h5 {
+        margin-bottom: -3.5%;
     }
 }
