@@ -954,8 +954,8 @@ td {
 
     /* navbar */
     .centered-div-main {
-        width: 56%;
-        height: 14vh;
+        width: 55%;
+        height: 10vh;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
@@ -1066,8 +1066,8 @@ td {
 }
     /*project-1*/
     .paperclip-box {
-        margin-top: -128%;
-        height: 56vh;
+        margin-top: -133%;
+        height: 54vh;
     }
     .skill-box h1 {
     font-size: 1.5em;
@@ -1079,8 +1079,8 @@ td {
 
     /*project-2*/
     .curve-box {
-        height: 29vh;
-        margin-top: -73%;
+        height: 27vh;
+        margin-top: -76%;
     }
 
     .curve-box img {
@@ -1098,8 +1098,8 @@ td {
 
     /*project-3*/
     .rang-box {
-        height: 29vh;
-        margin-top: -44%;
+        height: 27vh;
+        margin-top: -47%;
     }
 
     .rang-box img {
@@ -1117,7 +1117,7 @@ td {
 
     /*projet-4*/
     .tincat-box {
-        height: 29vh;
+        height: 27vh;
         margin-bottom: 60%;
     }
 
@@ -1137,8 +1137,8 @@ td {
 
     /*project-5*/
     .inventory-box {
-        height: 29vh;
-        margin-top: 23% !important;
+        height: 27vh;
+        margin-top: 25% !important;
     }
 
     .inventory-box img {
@@ -1156,8 +1156,8 @@ td {
 
     /*project-6*/
     .snake-box {
-        height: 56vh;
-        margin-bottom: -162%;
+        height: 54vh;
+        margin-bottom: -167%;
     }
         .snake-box h1 {
     font-size: 1.5em;
