@@ -954,16 +954,17 @@ td {
 
     /* navbar */
     .centered-div-main {
-        width: 45%;
-        height: 10vh;
+        width: 56%;
+        height: 14vh;
         display: flex !important;
         justify-content: center !important;
         align-items: center !important;
+        margin-left: 22%;
     }
 
     .block-links-hero {
         width: 100% !important;
-        margin-left: -2%;
+        margin-left: -4%;
         position: relative;
     }
 
@@ -980,7 +981,7 @@ td {
     .hero-image1 {
         width: 12%;
         height: 12%;
-        margin-left: 2%;
+        margin-left: 4%;
     }
 
     .hero-image2 {
@@ -991,6 +992,7 @@ td {
 /* Main headings */
 .hero-section-new h1 {
     font-size: 4.8em;
+    margin-top: -2%;
 }
 
 .hero-section-new h2 {
@@ -1055,18 +1057,13 @@ td {
 .projects-head {
     margin-bottom: 20%;
     margin-top: -10%;
+      font-size: 1em;
 }
 
 .projects-head p {
     margin-left: 46.5%;
+    font-size: 0.9em;
 }
-
-    .projects-head {
-        font-size: 4em;
-    }
-    .section-subhead {
-        font-size: 0.9em;
-    }
     /*project-1*/
     .paperclip-box {
         margin-top: -128%;
@@ -1077,7 +1074,7 @@ td {
 }
 
 .skill-box p {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
     /*project-2*/
@@ -1093,7 +1090,7 @@ td {
 
     .curve-box p {
         width: 120%;
-        font-size: 1em;
+        font-size: o.8em;
     }
         .curve-box h1 {
     font-size: 1.5em;
@@ -1112,7 +1109,7 @@ td {
 
     .rang-box p {
         width: 120%;
-        font-size: 1em;
+        font-size: 0.8em;
     }
         .rang-box h1 {
     font-size: 1.5em;
@@ -1131,7 +1128,7 @@ td {
 
     .tincat-box p {
         width: 120%;
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .tincat-box h1 {
     font-size: 1.5em;
@@ -1151,7 +1148,7 @@ td {
 
     .inventory-box p {
         width: 120%;
-        font-size: 1em;
+        font-size: 0.8em;
     }
     .inventory-box h1 {
     font-size: 1.5em;
@@ -1167,7 +1164,7 @@ td {
 }
 
 .snake-box p {
-    font-size: 1em;
+    font-size: 0.8em;
 }
 
     /* about */
@@ -1200,7 +1197,7 @@ td {
 
     .music p {
         margin-top: -7px;
-        font-size: 0.5em;
+        font-size: 0.6em;
     } 
     .music h5 {
         width: 110%;
@@ -1208,6 +1205,9 @@ td {
         margin-bottom: -3.5%;
     }
     .contacts {
-    margin-right: 25%;
+    margin-left: -4%;
 }
+    .contacts tr td {
+        font-size: 0.8em;
+    }
 }
