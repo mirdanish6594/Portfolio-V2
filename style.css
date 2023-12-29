@@ -1138,7 +1138,7 @@ td {
     /*project-5*/
     .inventory-box {
         height: 25vh;
-        margin-top: 22.5% !important;
+        margin-top: 21.5% !important;
     }
 
     .inventory-box img {
@@ -1157,7 +1157,7 @@ td {
     /*project-6*/
     .snake-box {
         height: 52vh;
-        margin-bottom: -162%;
+        margin-bottom: -160%;
     }
         .snake-box h1 {
     font-size: 1.5em;
