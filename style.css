@@ -526,18 +526,13 @@ td {
 .music {
     position: absolute;
     width: 90% !important;
-    /* Adjust the width as needed */
     height: 8vh;
     margin: -2% 0 10% -170%;
-    /* Center the div horizontally with top margin */
     padding: 10px;
     background-color: rgba(255, 255, 255, 0.15);
     border-radius: 50px;
-    /* Rounded corners */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    /* Box shadow for a subtle effect */
     backdrop-filter: blur(10px);
-    /* Apply a blur effect to the background */
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -586,17 +581,17 @@ td {
     }
 
     .block-links-hero {
-        width: 100% !important;
-        margin-top: -4%;
-        margin-left: -5%;
+        width: 107vw !important;
+        margin-top: -6%;
+        margin-left: -20%;
     }
 
     .block-links-hero li {
         margin-right: 2%;
-        /* Adjust spacing between items as needed */
         margin-left: 2%;
-        padding-left: 1%;
-        font-size: 0.8em;
+        padding-left: 1.3%;
+        padding-right: 1.3%;
+        font-size: 0.7em;
     }
 
     /* hero section */
@@ -730,7 +725,7 @@ td {
     }
     .for-hover {
         width: 94%;
-        height: 45vh;
+        height: 49vh;
         margin: 0 0 12% 3%;
         padding: 10px;
     }
@@ -751,7 +746,7 @@ td {
     .curve-box {
         position: relative;
         width: 109% !important;
-        height: 17vh !important;
+        height: 23vh !important;
         margin: -7% 0 12% 3% !important;
         padding: 10px !important;
     }
@@ -777,7 +772,7 @@ td {
     .rang-box {
         position: relative;
         width: 109% !important;
-        height: 17vh !important;
+        height: 23vh !important;
         margin: -7% 0 12% 3% !important;
         padding: 10px !important;
     }
@@ -803,7 +798,7 @@ td {
     .tincat-box {
         position: relative;
         width: 109% !important;
-        height: 20vh !important;
+        height: 24vh !important;
         margin: -7% 0 12% 3% !important;
         padding: 10px !important;
     }
@@ -829,7 +824,7 @@ td {
     .inventory-box {
         position: relative;
         width: 109% !important;
-        height: 17vh !important;
+        height: 25vh !important;
         margin: -7% 0 12% 3% !important;
         padding: 10px !important;
     }
@@ -855,7 +850,7 @@ td {
     .snake-box {
         position: relative;
         width: 92% !important;
-        height: 45vh !important;
+        height: 53vh !important;
         margin: -7% 0 12% 0 !important;
         padding: 10px !important;
     }
@@ -910,31 +905,31 @@ td {
     }
 
     .contacts {
-        margin-left: -22%
+        margin-left: -24%;
     }
 
     .music {
         position: relative;
-        width: 90% !important;
+        width: 92vw !important;
         height: 6vh;
-        margin: 6vh 0 10% -24%;
+        margin: 6vh 0 10% -36%;
     }
 
     .music h5 {
         font-size: 1.1em;
         width: 120% !important;
-        margin-left: -15%;
+        margin-left: -18%;
     }
 
     .music p {
         margin-bottom: 2px;
         font-size: 0.8em;
-        margin-left: -15%;
+        margin-left: -18%;
     }
 
     .fa-spotify {
-        margin-left: 30%;
-        margin-top: -20%;
+        margin-left: 20%;
+        margin-top: -28%;
     }
 
     .fa-copyright {
