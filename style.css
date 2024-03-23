@@ -49,6 +49,18 @@ body {
     }
 }
 
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
 /* Navbar */
 .centered-div-main {
     width: 37%;
@@ -565,6 +577,29 @@ td {
     text-decoration: none;
 }
 
+/* Floating button */
+.floating-btn {
+    position: fixed;
+    bottom: 20px; 
+    right: 20px; 
+    background-color: transparent; 
+    color: #113946;
+    border: 2px solid black;
+    border-radius: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 999; 
+    animation: floating 3s ease-in-out infinite;
+}
+
+.floating-btn:hover {
+    background-color:  #113946;;
+    color: #fff; 
+}
+
 
 /******CSS media query breakpoints*******/
 
@@ -943,6 +978,14 @@ td {
     }
 }
 
+/* Floating button */
+.floating-btn {
+    bottom: 11px; 
+    right: 11px; 
+    padding: 4px 11px;
+    font-size: 11px;
+}
+
 @media (min-width: 992px) and (max-width: 1877.5px) {
     body {
         overflow-x: hidden !important;
@@ -1095,7 +1138,7 @@ td {
     /*project-3*/
     .rang-box {
         height: 25vh;
-        margin-top: -49.5%;
+        margin-top: -50.5%;
     }
 
     .rang-box img {
@@ -1134,7 +1177,7 @@ td {
     /*project-5*/
     .inventory-box {
         height: 25vh;
-        margin-top: 21.5% !important;
+        margin-top: 20.3% !important;
     }
 
     .inventory-box img {
@@ -1153,7 +1196,7 @@ td {
     /*project-6*/
     .snake-box {
         height: 52vh;
-        margin-bottom: -158%;
+        margin-bottom: -154%;
     }
         .snake-box h1 {
     font-size: 1.5em;
