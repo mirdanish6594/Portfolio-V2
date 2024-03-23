@@ -976,8 +976,8 @@ td {
     .p-copyright {
         font-size: 0.6em !important;
     }
-}
 
+    
 /* Floating button */
 .floating-btn {
     bottom: 11px; 
@@ -985,6 +985,8 @@ td {
     padding: 4px 11px;
     font-size: 11px;
 }
+}
+
 
 @media (min-width: 992px) and (max-width: 1877.5px) {
     body {
